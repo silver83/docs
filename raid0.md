@@ -24,7 +24,7 @@ the general formula is : `img[j]` goes to `device[j % device_count]`.
 
 #### physical block
 
-on device3, the img[3] will be considered physical block[0], since its the first block on the physical disk.
+on device3, img[3] will be considered physical block[0], since its the first block on the physical disk.
 on device0, img[4] will be considered physical block[1].
 
 in general the `PHYSICAL_BLOCK_INDEX` = `LOGICAL_BLOCK_INDEX / NUMBER OF DEVICES`.
